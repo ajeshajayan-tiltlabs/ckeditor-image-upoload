@@ -90,15 +90,14 @@ ClassicEditor.defaultConfig = {
 	},
 	simpleUpload: {
 		// The URL that the images are uploaded to.
-		uploadUrl: "http://example.com",
+		uploadUrl: "",
 
 		// Enable the XMLHttpRequest.withCredentials property.
-		withCredentials: true,
+		withCredentials: false,
 
 		// Headers sent along with the XMLHttpRequest to the upload server.
 		headers: {
-			"X-CSRF-TOKEN": "CSRF-Token",
-			Authorization: "Bearer <JSON Web Token>",
+			Authorization: "",
 		},
 	},
 	image: {

@@ -1,14 +1,15 @@
 {
-  "name": "@ckeditor/ckeditor5-build-classic",
-  "version": "25.0.0",
-  "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
+  "name": "ckeditor5-build-classic-image-upload",
+  "version": "1.0.0",
+  "description": "The classic editor build of CKEditor 5 – with image upload.",
   "keywords": [
     "ckeditor",
     "ckeditor5",
     "ckeditor 5",
     "image",
     "upload",
-    "resize"
+    "resize",
+    "ltpm"
   ],
   "main": "./build/ckeditor.js",
   "files": [
@@ -53,13 +54,11 @@
     "npm": ">=5.7.1"
   },
   "author": "Ajesh Ajayan",
-  "license": "GPL-2.0-or-later",
-  "homepage": "https://ckeditor.com/ckeditor-5",
-  "bugs": "https://github.com/ckeditor/ckeditor5/issues",
+  "homepage": "https://github.com/ajeshajayan-tiltlabs/ckeditor-image-upoload",
+  "bugs": "https://github.com/ajeshajayan-tiltlabs/ckeditor-image-upoload/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ckeditor/ckeditor5.git",
-    "directory": "packages/ckeditor5-build-classic"
+    "url": "https://github.com/ajeshajayan-tiltlabs/ckeditor-image-upoload.git"
   },
   "scripts": {
     "build": "webpack --mode production",
